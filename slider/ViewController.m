@@ -26,4 +26,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+float *value1;
+
+//I am having difficulty obtaining the slider value.
+float value1 = [UISlider.float];
+
+
+- (IBAction)valueChanged:(id)sender {
+    NSString *labelText = [NSString stringWithFormat:@"%f", value1];
+
+    [UILabel setText: value];
+}
+
+
+
 @end
